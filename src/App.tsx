@@ -4,12 +4,36 @@ function App() {
   return (
     <>
       <p>Chores ToDo List</p>
-      <p>checkbox Create Guest Experience mobile check-in trashlogo</p>
-      <p>checkbox Document current CI/CD process trashlogo</p>
-      <p>checkbox Perform Code Review for final Pillow-Talk release trashlogo</p>
-      <p>checkbox Implement new Color Palette from Design Team trashlogo</p>
-      <p>checkbox Fix image uploading process for guest check-in trashlogo</p>
-      <p>checkbox Provide on-boarding documentation trashlogo</p>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Create Guest Experience mobile check-in trashbutton </label>
+      </div>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Document current CI/CD process trashbutton </label>
+      </div>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Perform Code Review for final Pillow-Talk release trashbutton </label>
+      </div>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Implement new Color Palette from Design Team trashbutton </label>
+      </div>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Fix image uploading process for guest check-in trashbutton </label>
+      </div>
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        </input>
+        <label for="default-checkbox" class="ms-2 text-sm font-medium dark:text-gray-300">Provide on-boarding documentation trashbutton </label>
+      </div>
       <p>-----------------------------------------------------------------------</p>
       <p>Done : 0</p>
       <p>Add todo</p>
