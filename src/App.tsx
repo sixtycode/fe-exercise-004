@@ -14,7 +14,7 @@ function App() {
       <p>Done : 0</p>
       <p>Add todo</p>
       <p>textbox</p>
-      <p>button ADD TASK</p>
+      <button>ADD TASK</button>
     </>
   )
 }
